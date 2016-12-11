@@ -1,0 +1,478 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Home</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Appest Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+</head>
+<body>
+<!--header start here-->
+<div class="banner">
+  <div class="header">
+	<div class="container">
+		 <div class="header-main">
+				<div class="logo">
+					<h1><a href="index.html">DevBuy官网</a></h1>
+				</div>
+				<div class="top-nav">
+					<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				 <nav class="cl-effect-16">
+					<ul class="res">
+					   <li><a href="index.html" class="active"  data-hover="首页">首页</a></li> 
+					   <li><a class="scroll" href="#about"  data-hover="关于我们">关于我们</a></li> 
+						<li><a class="scroll" href="#services"  data-hover="服务">服务</a></li> 
+						<li><a class="scroll" href="#gallery"  data-hover="相册">相册</a></li> 
+						<li><a class="scroll" href="#contact"  data-hover="联系我们">联系我们</a></li> 
+						<li><a  href="http://www.dev4free.com/devbuy/"  data-hover="老版本">老版本</a></li> 
+				   </ul>
+				 </nav>
+					<!-- script-for-menu -->
+						 <script>
+						   $( "span.menu" ).click(function() {
+							 $( "ul.res" ).slideToggle( 300, function() {
+							 // Animation complete.
+							  });
+							 });
+						</script>
+		        <!-- /script-for-menu -->
+				</div>				
+		 <div class="clearfix"> </div>
+	  </div>
+   </div>
+</div>
+	   <section class="slider">
+		 <div class="flexslider">
+			<ul class="slides">
+			  <li>
+			     <div class="banner-bottom">
+			 	  <h3>三大内容板块之一---官网浏览</h3>
+			    </div>
+		     </li>
+		      <li>
+			     <div class="banner-bottom">
+			 	 <h3>三大内容板块之二---app使用体验</h3>
+			    </div>
+		     </li>
+		      <li>
+			     <div class="banner-bottom">
+			 	  <h3>三大内容板块之一---商家管理后台</h3>
+			    </div>
+		     </li>
+		    </ul>
+		 </div>
+		 <div class="clearfix"> </div>
+	  </section>
+</div>
+<!-- FlexSlider -->
+				  <script defer src="js/jquery.flexslider.js"></script>
+				  <script type="text/javascript">
+					$(function(){
+					 
+					});
+					$(window).load(function(){
+					  $('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						  $('body').removeClass('loading');
+						}
+					  });
+					});
+				  </script>
+			<!-- FlexSlider -->
+
+<!--header end here-->
+<!--about start here-->
+<div class="about" id="about">
+	<div class="container">
+		<div class="about-main">
+			<div class="about-top">
+				<h2>关于我们</h2>
+				<h4>devbuy项目是个人开发的一套B2C电子商务网站</h4>
+				<p>该项目纯属个人爱好开发，不带有任何商业性质。该项目主要分为三个部分，第一部分为客户端App开发，第二部分为前端Web开发，第三部分为后台开发。
+				客户端App使用android开发，用于展示商品和购买商品。前端Web通过对基于bootstrap的某套成熟模板修改进行开发，用于devbuy项目的官网展示。后台使用java的ssm框架进行开发，用于对接app的后台和开发商城的后台管理系统。
+				</p>
+			</div>
+			<div class="about-bottom">
+				<div class="col-md-4 about-grid">
+					<h3>客户端App开发</h3>
+					<img src="images/sa1.jpg" alt="" class="img-responsive">
+					<p>使用radiogroup+fragment显示经典的Tab栏切换效果，使用ListView，linearlayout，button基础控件展示UI，使用Xutis3，glide,smsssdk等第三方框架实现复杂功能。业务逻辑上有商品展示，下单，加入购物车，购买，订单查询等功能！</p>
+				</div>
+				<div class="col-md-4 about-grid">
+					<h3>前端Web开发</h3>
+					<img src="images/sa2.jpg" alt="" class="img-responsive">
+					<p>使用某套基于bootstrap开发的模板，对模板进行修改完成了本页官网的展示。网上模板千千万，为何独爱这一款，不为效果多酷炫，只因这个最简单。前端开发只会越来越火，层次不穷的优秀框架，渐入佳境的渲染效果，甚至有席卷移动端的苗头，让人不得不感叹，这世界变化快，不是你不明白！</p>
+				</div>
+				<div class="col-md-4 about-grid">
+					<h3>后台开发</h3>
+					<img src="images/sa3.jpg" alt="" class="img-responsive">
+					<p>本后台开发使用java进行开发，java是目前非常火热的开发语言，长期霸占着开发语言的top1。该项目后台开发由两部分组成，第一部分是同app对接的后台开发，和app一起完成C端的功能，另一部分是纯管理后台的开发，用户发布，修改商品信息等功能。</p>
+				</div>
+			  <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--about end here-->
+<!--why us start here-->
+<div class="why-us">
+	<div class="container">
+		<div class="why-us-main">
+			<div class="col-md-6 why-us-left">
+				<h3>关于作者</h3>
+				<h4>崇尚自由，热爱生活，渴望在力所能及的范围内做真实的自己</h4>
+				<p>该项目计划由我和另外两个小伙伴合伙完成，意在扩展兴趣爱好，锻炼一下自己的技术。可，由于其它原因，小伙伴们最终陆续退出，比较遗憾！但，很庆幸，最终这个项目历时8个月的时间还是比较完整的完成了，感谢一路以来的坚持！</p>
+			</div>
+			<div class="col-md-6 why-us-right">
+				<img src="images/smobil.jpg" alt="">
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--why us end here-->
+<!--services start here-->
+<div class="services" id="services">
+	<div class="container">
+		<div class="services-main">
+			<div class="services-top">
+				<h3>服务</h3>
+				<p>我们能够提供给您最便捷的购物方式，app在手，啥子都有。登录app，只需简单的填写注册信息，绑定您的银行卡，一网打尽您所需要的服务！</p>
+			</div>
+			<div class="services-bottom">
+				<div class="col-md-4 ser-grid">
+					<div class="ser-icon">
+					 <img src="images/service6.jpg" alt="">
+					</div>
+					<h4>大娃</h4>
+					<p>我是大娃大力士</p>
+				</div>
+				<div class="col-md-4 ser-grid">
+					<div class="ser-icon">
+					  <img src="images/service2.jpg" alt="">
+					</div>
+					<h4>二娃</h4>
+					<p>我是二娃千里眼顺风耳</p>
+				</div>
+				<div class="col-md-4 ser-grid">
+					<div class="ser-icon">
+					  <img src="images/service3.jpg" alt="">
+					</div>
+					<h4>三娃</h4>
+					<p>我是三娃刀枪不入</p>				
+				</div>
+				<div class="col-md-4 ser-grid">
+					<div class="ser-icon">
+					  <img src="images/service4.jpg" alt="">
+					</div>
+					<h4>四娃</h4>
+					<p>我是四娃我吐水</p>		
+				</div>
+				<div class="col-md-4 ser-grid">
+					<div class="ser-icon">
+					  <img src="images/service5.jpg" alt="">
+					</div>
+					<h4>五娃</h4>
+					<p>我是五娃我吐火</p>		
+				</div>
+				<div class="col-md-4 ser-grid">
+					<div class="ser-icon">
+					  <img src="images/service6.jpg" alt="">
+					</div>
+					<h4>六娃</h4>
+					<p>我是六娃我隐身</p>		
+				</div>
+			  <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--services end here-->
+<!--testmony start here-->
+<div class="testimony">
+	<div class="container">
+		<div class="testimony-main">
+			  	<ul class="rslides" id="slider">
+	             <li>
+	             	<div class="testimo-slid">
+	             	<div class="testimony-left">
+			  	       <img src="images/st1.jpg" alt="" class="img-responsive">
+			        </div>
+	             	 <div class="testimony-right">
+					  	 <span class="glyphicon glyphicon-comment" aria-hidden="true"> </span>
+					  	 <p>刚出世时，受兄弟们的请求去救爷爷。见到妖精后和蜈蚣头领战斗，蜈蚣头领被打败后，金蛇精设计陷害大娃，因急着要见爷爷，冲入假扮爷爷的泥潭中，被妖精抓住，后被六娃救出。</p>
+					  	 <h4>大娃（红娃）</h4>
+				  	 </div>
+				  	 <div class="clearfix"> </div>
+				  	</div>
+			  	 </li>
+	             <li>
+	             	<div class="testimony-left">
+			  	       <img src="images/st3.jpg" alt="" class="img-responsive">
+			        </div>
+	             	 <div class="testimony-right">
+					  	 <span class="glyphicon glyphicon-comment" aria-hidden="true"> </span>
+					  	 <p>橙娃天生拥有一双千里眼和顺风耳，妖怪的一切信息都瞒不住他。而为救大哥，误入魔镜宫，被蛇精刺瞎双眼。后被山神治愈。第二部中，被青蛇精的扇子刺瞎双眼，后被炼成葫芦小金刚。《新葫芦兄弟》中，为了保护爷爷和其他人所以假装投靠金翅雕。</p>
+					  	 <h4>二娃（橙娃）</h4>
+				  	 </div>
+				  	<div class="clearfix"> </div>
+			  	 </li>
+			  	 <li>
+			  	 	<div class="testimony-left">
+			  	       <img src="images/st2.jpg" alt="" class="img-responsive">
+			        </div>
+	             	 <div class="testimony-right">
+					  	 <span class="glyphicon glyphicon-comment" aria-hidden="true"> </span>
+					  	 <p>黄娃三弟是个拥有钢筋铁骨的神娃，刀枪箭炮对他丝毫无伤，第一部但因执硬骄傲的性格败在蛇精的软刀下，后被六娃所救；第二部被蛇精发现弱点而击昏。</p>
+					  	 <h4>三娃（黄娃）</h4>
+				  	 </div>
+				  	<div class="clearfix"> </div>
+			  	 </li>
+	          </ul>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--testmony end here-->
+<!-- banner Slider starts Here -->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: false,
+        nav:true,
+      });
+    });
+  </script>
+
+<!--gallery start here-->
+<div class="gallery" id="gallery">
+	<div class="container">
+		<div class="gallery-top">
+			<h3>相册</h3>
+			<p>这里将对全系列产品做一些展示，截图均来自devBuy的安卓app中。。。</p>
+		</div>
+		<div class="gallery-bottom">
+				<div class="col-md-4 gallery-grid">
+					<div class="project-eff">
+						<div id="nivo-lightbox-demo"><p><a href="images/sg2.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a></p></div>     
+							<img class="img-responsive" src="images/sg2.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="project-eff">
+						<div id="nivo-lightbox-demo"><p><a href="images/sg1.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a></p></div>     
+							<img class="img-responsive" src="images/sg1.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="project-eff">
+						<div id="nivo-lightbox-demo"><p><a href="images/sg3.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a></p></div>     
+							<img class="img-responsive" src="images/sg3.png" alt="">
+					</div>
+				</div>
+                <div class="col-md-4 gallery-grid">
+					<div class="project-eff">
+						<div id="nivo-lightbox-demo"><p><a href="images/sg4.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a></p></div>     
+							<img class="img-responsive" src="images/sg4.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="project-eff">
+						<div id="nivo-lightbox-demo"><p><a href="images/sg5.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a></p></div>     
+							<img class="img-responsive" src="images/sg5.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-4 gallery-grid">
+					<div class="project-eff">
+						<div id="nivo-lightbox-demo"> <p><a href="images/sg6.png" data-lightbox-gallery="gallery1" id="nivo-lightbox-demo"> <span class="rollover1"> </span></a></p></div>     
+							<img class="img-responsive" src="images/sg6.png" alt="">
+					</div>
+				</div>
+		   <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+			<script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+				<script type="text/javascript">
+				$(document).ready(function(){
+				    $('#nivo-lightbox-demo a').nivoLightbox({ effect: 'fade' });
+				});
+				</script>
+<!--gallery end here-->
+<!--features strat here-->
+<div class="features">
+	<div class="container">
+		<div class="features-main">
+			<div class="features-top">
+				<h3>特色</h3>
+				<p>我们的特色就是，尽可能的满足定制化需求，快速的响应，给您以品质的保证！如果，您有什么需求，请尽量的提出来吧！扫描下面二维码就可以获取相关信息</p>
+			</div>
+			<div class="features-bottom">
+				<div class="feats-bot1">
+				<div class="col-md-6 feat-grid">
+					<div class="col-md-5 feat-img">
+						<img src="images/sf1.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-7 feat-text">
+						<h4>app下载</h4>
+						<p>这是一款devBuy的安卓app，通过安卓app您就可以享受购物的乐趣，拿起您的手机扫一扫，加入战斗吧！</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 feat-grid">
+					<div class="col-md-5 feat-img">
+						<img src="images/sf2.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-7 feat-text">
+						<h4>后台管理系统</h4>
+						<p>通过该后台管理系统，您可以查看所有的订单状态和商品信息，拿起您的手机扫一扫，加入战斗吧！</p>
+					</div>
+				</div>
+			   <div class="clearfix"> </div>
+			</div>
+			<div class="feats-bot1">
+				<div class="col-md-6 feat-grid">
+					<div class="col-md-5 feat-img">
+						<img src="images/sf3.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-7 feat-text">
+						<h4>devBuy官方网站</h4>
+						<p>电脑上看不够？没关系，官方网站移动端也支持，想体验一把移动端吗，拿起您的手机扫一扫，加入战斗吧！</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 feat-grid">
+					<div class="col-md-5 feat-img">
+						<img src="images/sf4.png" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-7 feat-text">
+						<h4>学习指引(访问较慢，请耐心等待)</h4>
+						<p>您是否对该项目是否做成的比价感兴趣，却不知道如何学习着也做一套该系统，拿起您的手机扫一扫，加入战斗吧！</p>
+					</div>
+				  <div class="clearfix"> </div>
+				</div>
+			  <div class="clearfix"> </div>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!--features end here-->
+<!--contact-starts-->
+	<div class="contact" id="contact">
+		<div class="container">
+			<div class="contact-head">
+				<h3>联系我们</h3>
+				<p>如果您在使用过程中遇到什么问题，或者是您有什么好的建议，欢迎联系我们哦！！！</p>
+			</div>
+			<div class="contact-top">
+				<div class="col-md-4 contact-left">
+					<div class="add1">
+						<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+						<p><small class="con-bold">公司名称,</small> dev4free</p>
+					</div>
+					<div class="add1">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+						<p>联系电话 , +086 666 6666</p>
+					</div>
+					<div class="add1">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+						<p>电子邮件: <a href="mailto:example@email.com">306704986@qq.com</a></p>
+					</div>
+				</div>	
+				<div class="col-md-8 contact-right">
+				   <form>
+					<input type="text" placeholder="姓名">
+			        <input type="text" class="email" placeholder="电子邮件">
+					<textarea placeholder="请输入您的问题哦" required=""></textarea>
+			     	 <div class="submit">
+			     	 	<input type="submit" value="提交">
+			     	 </div>    
+			     	</form>
+				</div>	
+				<div class="clearfix"> </div>	
+			</div>
+		</div>
+	</div>
+	<!--contact-end-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			  <div class="col-md-4 ftr-grd">
+			  	 <h3>如何找到我们</h3>
+			  	 <p>大城市铁岭</p>
+			  	 <p>莲花乡池水沟子8村8组8社</p>
+			  	 <p>Phone: +188 8888 8888</p>
+			  </div>
+			  <div class="col-md-4 ftr-grd">
+			  	 <h3>给我们点赞哦</h3>
+			  	 <ul>
+			  	 	<li><a href="#"><span class="fa"> </span></a></li>
+			  	 	<li><a href="#"><span class="tw"> </span></a></li>
+			  	 	<li><a href="#"><span class="g"> </span></a></li>
+			  	 	<li><a href="#"><span class="in"> </span></a></li>
+			  	 </ul>
+			  </div>
+			  <div class="col-md-4 ftr-grd">
+			  	<h3>可以尝试订阅我们的新闻哦</h3>
+				<form>
+			  	 	<input type="text" placeholder="电子邮件">
+			  	 	<input type="submit" value="提交">
+				</form>
+			  </div>
+			<div class="clearfix"> </div>
+			<div class="copy-right">
+			  <p>Copyright &copy; 2017.Company name All rights reserved.</p>
+		   </div>
+		</div>
+		<script type="text/javascript">
+										$(document).ready(function() {
+											/*
+											var defaults = {
+									  			containerID: 'toTop', // fading element id
+												containerHoverID: 'toTopHover', // fading element hover id
+												scrollSpeed: 1200,
+												easingType: 'linear' 
+									 		};
+											*/
+											
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	</div>
+</div>
+<!--//footer--> 
+
+</body>
+</html>
